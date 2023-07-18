@@ -63,3 +63,8 @@
 # puts str.length
 # puts str[0,15]    # it will go until index 14 
 # puts str[0..15]    # it will go until index 15
+
+a=10
+b=20
+c= (a>b) ? a : b
+puts "Greater number is #{c}"
