@@ -92,3 +92,22 @@
 # p arr1.shift # remove from the start
 # p arr1.delete(8) # remove specific item
 # p arr1.uniq
+
+hash=Hash.new
+hash1 ={"name"=>"Rafio",
+        "subject"=>"EEE",
+        "Number"=>"94"}
+p hash1.length
+p hash1["subject"]
+p hash1["name"]
+
+hash2 ={"name":"Rafio",
+        "subject":"EEE",
+        "Number":"94"}
+p hash2.size
+p hash2[:"Number"]
+p hash2[:"name"]
+
+hash2.each do|key,value|
+    puts "#{key} : #{value}"
+end
