@@ -156,3 +156,30 @@
 #     end
 # end
 
+# i=1
+# until i==10
+#     p i
+#     i+=1
+# end
+
+# x=3
+# unless x<5
+#     p "x is less than 5"   # if it's not meeting the condition  
+# else 
+#     p "5 is greater than x" # when it's meeting the condition
+# end
+
+for i in 1..10
+    if i==5
+    next                  # next will skip that number and procced to the next step
+    end
+    p i
+end
+
+for i in 1..10
+    if i==5
+    break             # break will stop the working 
+    end
+    p i
+end
+
