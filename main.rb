@@ -93,21 +93,43 @@
 # p arr1.delete(8) # remove specific item
 # p arr1.uniq
 
-hash=Hash.new
-hash1 ={"name"=>"Rafio",
-        "subject"=>"EEE",
-        "Number"=>"94"}
-p hash1.length
-p hash1["subject"]
-p hash1["name"]
+# hash=Hash.new
+# hash1 ={"name"=>"Rafio",
+#         "subject"=>"EEE",
+#         "Number"=>"94"}
+# p hash1.length
+# p hash1["subject"]
+# p hash1["name"]
 
-hash2 ={"name":"Rafio",
-        "subject":"EEE",
-        "Number":"94"}
-p hash2.size
-p hash2[:"Number"]
-p hash2[:"name"]
+# hash2 ={"name":"Rafio",
+#         "subject":"EEE",
+#         "Number":"94"}
+# p hash2.size
+# p hash2[:"Number"]
+# p hash2[:"name"]
 
-hash2.each do|key,value|
-    puts "#{key} : #{value}"
+# hash2.each do|key,value|
+#     puts "#{key} : #{value}"
+# end
+
+if (1<0)
+    puts "I am nice guy"
+elsif (0>4)
+    puts "I am bad guy"
+else
+    puts "what am i?"
+end
+
+print "Hey What is the day?"
+day=gets.chomp.to_i
+
+case day
+when 1
+    puts "1"
+when 2
+    puts "2"
+when 3
+    puts "3"
+else
+    puts "noob"
 end
