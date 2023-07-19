@@ -64,7 +64,31 @@
 # puts str[0,15]    # it will go until index 14 
 # puts str[0..15]    # it will go until index 15
 
-a=10
-b=20
-c= (a>b) ? a : b
-puts "Greater number is #{c}"
+# a=10
+# b=20
+# c= (a>b) ? a : b
+# puts "Greater number is #{c}"
+
+# arr1=[1,4,8,9,5,4]
+# arr2=Array.new(4)
+
+# p arr1.size
+# p arr2.size
+# p arr1.at(4)  # array.at(index) = array[index]
+# p arr1.fetch(5) # at out of index constructive error
+# p arr1[2]
+
+# p arr1.first
+# p arr1.last
+# p arr1.take(2)
+
+# p arr1.push(14)  #add items at last
+# p arr1 <<74 #same
+# p arr1.unshift(100) # add items at first
+# p arr1.insert(3,200) # add items in specific position insert(position, obj)
+
+# p arr1.drop(2) # remove nth number of items
+# p arr1.pop #remove from the end
+# p arr1.shift # remove from the start
+# p arr1.delete(8) # remove specific item
+# p arr1.uniq
