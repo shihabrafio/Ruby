@@ -112,24 +112,47 @@
 #     puts "#{key} : #{value}"
 # end
 
-if (1<0)
-    puts "I am nice guy"
-elsif (0>4)
-    puts "I am bad guy"
-else
-    puts "what am i?"
-end
+# if (1<0)
+#     puts "I am nice guy"
+# elsif (0>4)
+#     puts "I am bad guy"
+# else
+#     puts "what am i?"
+# end
 
-print "Hey What is the day?"
-day=gets.chomp.to_i
+# print "Hey What is the day?"
+# day=gets.chomp.to_i
 
-case day
-when 1
-    puts "1"
-when 2
-    puts "2"
-when 3
-    puts "3"
-else
-    puts "noob"
-end
+# case day
+# when 1
+#     puts "1"
+# when 2
+#     puts "2"
+# when 3
+#     puts "3"
+# else
+#     puts "noob"
+# end
+
+# for e in [1,5,7,9,8,10]
+#     p e
+# end
+
+# for i in 1..7
+#     p i
+# end
+
+# x=10
+# while x>1 do
+#     p x
+#     x-=1
+# end
+
+# loop do
+#     puts "enter a number greater than 10"
+#     num=gets.chomp.to_i
+#     if num<10
+#      break
+#     end
+# end
+
