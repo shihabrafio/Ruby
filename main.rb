@@ -169,17 +169,42 @@
 #     p "5 is greater than x" # when it's meeting the condition
 # end
 
-for i in 1..10
-    if i==5
-    next                  # next will skip that number and procced to the next step
-    end
-    p i
-end
+# for i in 1..10
+#     if i==5
+#     next                  # next will skip that number and procced to the next step
+#     end
+#     p i
+# end
 
-for i in 1..10
-    if i==5
-    break             # break will stop the working 
-    end
-    p i
-end
+# for i in 1..10
+#     if i==5
+#     break             # break will stop the working 
+#     end
+#     p i
+# end
 
+# def hello(name)
+#     p "hello #{name}"
+# end
+
+# hello("david")
+
+# class Car
+
+#     @name
+#     @topspeed
+#     @model
+
+#     def initialize(name, topspeed, model)
+#         @name = name
+#         @model = model
+#         @topspeed = topspeed
+#     end
+
+#     def getname()
+#         p "Car name is #{@name}, its speed is #{@topspeed}, and the model is #{@model}"
+#     end
+# end
+
+# car1 = Car.new("Mustang", 200, 2023)
+# car1.getname() 
